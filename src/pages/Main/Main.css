@@ -1,0 +1,29 @@
+/* Copyright © 2021 Jonathan Dean Damiani */
+.main-page {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../img/food_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-side {
+  padding: 2em;
+  max-width: 40%;
+  border-radius: 10px;
+}
+
+.main-title {
+  color: #7c1f67;
+  text-align: left;
+  font-size: 4em;
+  margin-bottom: 0.2em;
+}
+
+.main-subtitle {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #444444;
+}

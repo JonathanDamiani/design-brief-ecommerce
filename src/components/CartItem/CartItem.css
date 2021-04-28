@@ -1,0 +1,39 @@
+/* Copyright © 2021 Jonathan Dean Damiani */
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  width: 100%;
+  height: 6.5em;
+  border-bottom: 1px solid#048112;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid#048112;
+}
+
+.cart-item-title {
+  margin-top: 1em;
+  width: 100%;
+  font-size: 1em;
+}
+.cart-image-container {
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 1em 0 0.6em; 
+}
+
+.cart-image {
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+}

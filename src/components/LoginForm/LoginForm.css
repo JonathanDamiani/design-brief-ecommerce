@@ -1,0 +1,36 @@
+/* Copyright © 2021 Jonathan Dean Damiani */
+.form-container {
+  max-width: 80%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-base {
+  color: #048112;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.input-base {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  padding: 0.5em 0 0.5em 1em;
+  border: none;
+  border-radius: 20px;
+}
+
+.button-start {
+  border-radius: 20px;
+}
+
+.form-terms {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #444444;
+}
+.form-terms > a {
+  color: #048112;
+}
